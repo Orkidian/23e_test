@@ -1,0 +1,52 @@
+/* Reset some default styles to ensure a clean slate */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: #9600C8;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the blog posts */
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Adjust the value to control the roundness */
+    padding: 10px; /* Example padding */
+    border: 1px solid #ccc; /* Example border */
+      }
+
+/* Style the footer */
+footer {
+    background-color: #9600C8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
